@@ -15,6 +15,7 @@ function TableComponent({ ...list }) {
           <th>Student Name</th>
           <th>Department</th>
           <th> Favorite Web language</th>
+          <th>Contact Number</th>
           <th>Delete</th>
           <th>Edit</th>
         </tr>
@@ -23,6 +24,7 @@ function TableComponent({ ...list }) {
             <td>{obj.studentName}</td>
             <td>{obj.department}</td>
             <td>{obj.selectedlanguage}</td>
+            <td>{obj.contactNumber}</td>
             <td>
               <button
                 variant="dark"
